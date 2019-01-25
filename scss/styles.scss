@@ -1,0 +1,327 @@
+@import 'utilities';
+@import 'base';
+@import 'components';
+
+
+
+
+// * {
+//     box-sizing: border-box;
+//   }
+  
+//   .container {
+//     width: 80%;
+//     display: block;
+//     margin: 50px auto;
+//     color: darkgray;
+//     font-size: 1.3em;
+//   }
+  
+  // .img--logo, 
+  //  ul li {
+  //   display: block;
+  //   margin: 30px auto;
+  //   text-align: center;
+  // }
+  
+  // li a {
+  //   text-decoration: none;
+  //   color: inherit;
+  // }
+  
+  // ul {
+  //   display: inline;
+  //   margin: 20px auto;
+  //   li:first-child {
+  //     background-color: #58E1C1;
+  //     padding: 10px;
+  //     border-radius: 5px;
+  //     color: white;
+  //   }
+  // }
+  
+  // .link {
+  //   color: #58E1C1;
+  // }
+  
+  // .headline--primary {
+  //   color: #58E1C1;
+  //   margin-left: 20px;
+  //   font-size: 1.6em;
+  //   margin: 40px 0;
+  // }
+  
+  // .headline--secondary {
+  //   font-weight: normal;
+  // }
+  
+  // blockquote {
+  //   font-style: italic;
+  //   border-left: 10px solid #58E1C1;
+  //   border-radius: 5px;
+  //   padding: 0 0 0 20px;
+  //   font-size: 1.1em;
+  // }
+  
+  // .img--frame {
+  //   display: block;
+  //   margin: 50px auto;
+  //   border: 1px solid lightgray;
+  //   padding: 10px;
+  //   width: 100%;
+  // }
+  
+  // .img--avatar {
+  //   display: block;
+  //   margin: 50px auto;
+  // }
+  
+  // form {
+  //   margin: 0 auto;
+  // }
+  
+  // .form__input {
+  //   border: 0;
+  //   border-bottom: 5px solid #58E1C1;
+  //   width: 90%;
+  //   padding: 10px;
+  //   margin: 10px auto;
+  //   font-size: .8em;
+  //   display: block;
+  // }
+  
+  // .btn--default.theme__colors {
+  //   background-color: #51DDFC;
+  //   width: 100%;
+  //   margin: 30px 0;
+  //   padding: 10px;
+  //   color: white;
+  //   text-transform: uppercase;
+  //   border-radius: 5px;
+  //   border: 0;
+  // }
+  
+  // .form__label--hidden {
+  //   display: none;
+  // }
+  
+  // .grid__col--12 .theme__colors {
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   color: white;
+  //   text-transform: uppercase;
+  //   border-radius: 5px;
+  //   border: 0;
+  // }
+  
+  // .btn--default.theme__colors {
+  //   background-color: #51DDFC;
+  // }
+  
+  // .btn--success.theme__colors {
+  //   background-color: #63CC82;
+  // }
+  
+  // .btn--error.theme__colors {
+  //   background-color: #E4757A;
+  // }
+  
+  // .btn--warning.theme__colors {
+  //   background-color: #FD7856;
+  // }
+  
+  // .btn--info.theme__colors {
+  //   background-color: #927BC1;
+  // }
+  
+  // .btn--success.theme__colors {
+  //   background-color: #63CC82;
+  // }
+  
+  /* ================================ GRID COLOR ================================ */
+  
+  // .grid__row {
+  //   margin-bottom: 50px;
+  // }
+  
+  // .grid__col--12.theme__colors {
+  //   background-color: #80E8D1;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--6.theme__colors {
+  //   background-color: #3FABCA;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--4.theme__colors {
+  //   background-color: #7EE6FD;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--3.theme__colors {
+  //   background-color: #DEB2EE;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--5.theme__colors {
+  //   background-color: #88D9A0;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--7.theme__colors {
+  //   background-color: #EC9FA3;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  // .grid__col--8.theme__colors {
+  //   background-color: #FD9F85;
+  //   width: 100%;
+  //   margin: 10px;
+  //   padding: 10px;
+  //   border-radius: 5px;
+  //   border: 0;
+  //   text-align: center;
+  // }
+  
+  @media (min-width: 481px) {
+    // .container {
+    //   max-width: 1400px;
+    // }
+    /* navigation section =========================================== */
+    // .grid__row {
+    //   display: flex;
+    //   flex-direction: row;
+    //   flex-wrap: wrap;
+    //   justify-content: space-between;
+    // }
+    // .grid__col--3 {
+    //   flex: 1;
+    // }
+    // .grid__col--9 {
+    //   flex: 3;
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-self: center;
+    //   justify-content: space-around;
+    // }
+// .nav  {
+//       display: flex;
+//       flex-direction: row;
+//       flex-wrap: wrap;
+//       &:last-child {
+//         margin: 20px;
+//       }
+//     }
+    // .img--avatar {
+    //   margin-top: 10px;
+    // }
+    // .nav__item {
+    //   flex: 1;
+    //   margin: 10px;
+    //   padding: 10px;
+    // }
+    /* typgraphy section =========================================== */
+    // .grid__col--8 {
+    //   flex: 2;
+    //   margin-right: 10%;
+    // }
+    // .headline--secondary {
+    //   margin: 50px 0;
+    // }
+    // .grid__col--4 {
+    //   flex: 1;
+    //   padding: 0 auto;
+    // }
+    /* images section =========================================== */
+    // .grid__col--6 {
+    //   flex: 1;
+    //   margin: 20px 50px;
+    //   align-self: center;
+    // }
+    // .img--avatar {
+    //   margin: 0 auto;
+    //   align-self: center;
+    // }
+    /* buttons section =========================================== */
+    // form .btn--default.theme__colors {
+    //   width: 100%;
+    // }
+    // .grid__row {
+    //   display: flex;
+    //   flex-direction: row;
+    // }
+    // .grid__col--12 {
+    //   flex: 1;
+    //   display: flex;
+    //   flex-direction: row;
+    //   flex-wrap: wrap;
+    //   justify-content: space-around;
+    // }
+    // .btn--default.theme__colors {
+    //   background-color: #51DDFC;
+    //   width: 15%;
+    // }
+    // .btn--success.theme__colors {
+    //   background-color: #63CC82;
+    //   width: 15%;
+    // }
+    // .btn--error.theme__colors {
+    //   background-color: #E4757A;
+    //   width: 15%;
+    // }
+    // .btn--warning.theme__colors {
+    //   background-color: #FD7856;
+    //   width: 15%;
+    // }
+    // .btn--info.theme__colors {
+    //   background-color: #927BC1;
+    //   width: 15%;
+    // }
+    /* grid section =========================================== */
+    // .grid__col--6.theme__colors, 
+    // .grid__col--5.theme__colors {
+    //   flex: 1;
+    // }
+    // .grid__col--7.theme__colors {
+    //   flex: 2;
+    //   align-self: center;
+    // }
+    // .grid__col--8.theme__colors {
+    //   flex: 2;
+    // }
+    // div.grid__col--7.theme__colors.centered {
+    //   margin: auto 20%;
+    // }
+  }

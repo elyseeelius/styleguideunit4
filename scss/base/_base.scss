@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    display: block;
+    margin: 50px auto;
+    color:$darkgray;
+    font-size:$font-size;
+   @include desktop {
+       max-width: 1400px;
+    }
+
+  }
+  .blockquote {
+    font-style: italic;
+    border-left: 10px solid $downy;
+    border-radius: $radius;
+    padding: 0 0 0 20px;
+    font-size: 1.1em;
+  }
+  

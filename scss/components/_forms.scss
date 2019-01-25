@@ -1,0 +1,22 @@
+form {
+    margin: 0 auto;
+  }
+  
+  .form__input {
+    border: 0;
+    border-bottom: 5px solid $downy;
+    width: 90%;
+    padding: $mypadding;
+    margin: 10px auto;
+    font-size: $buttonsize;
+    display: block;
+  }
+  .form__label--hidden {
+    display: none;
+  }
+  @include desktop{
+    form .btn--default.theme__colors {
+      width: $fullwidth;
+    }
+  }
+  

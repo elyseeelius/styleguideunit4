@@ -1,0 +1,42 @@
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  display: block;
+  text-align: center;
+  margin: 15px 20px;
+  padding: 10px 30px;
+  width: $fullwidth;
+&:hover {
+  background-color: #58E1C1;
+  border-radius: 5px;
+}
+& a {
+  @include navlink;
+}
+& a {
+  margin: 20px;
+}
+&:hover a {
+  color: $white;
+}
+}
+
+@media (min-width: 763px) {
+  .nav__item {
+    margin: auto $mymargin;
+    & a {
+      @include navlink;
+    }
+  }
+}
+@media (min-width: 763px) {
+  .nav {
+    flex-direction: row;
+  }
+}

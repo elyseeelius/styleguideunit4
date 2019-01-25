@@ -1,0 +1,97 @@
+ .grid__row {
+   margin-bottom: 50px;
+  
+ }
+
+ .grid__col--12.theme__colors {
+   background-color: $cyan;
+   @include flexgrid;
+ }
+
+ .grid__col--6.theme__colors {
+   background-color: $col6;
+   @include flexgrid;
+ }
+
+ .grid__col--4.theme__colors {
+   background-color: $col4;
+   @include flexgrid;
+ }
+
+ .grid__col--3.theme__colors {
+   background-color:$col3;
+   @include flexgrid;
+ }
+
+ .grid__col--5.theme__colors {
+   background-color: $col5;
+   @include flexgrid;
+ }
+
+ .grid__col--7.theme__colors {
+   background-color: $col7;
+   @include flexgrid;
+ }
+
+ .grid__col--8.theme__colors {
+   background-color: $col8;
+   @include flexgrid;
+ }
+
+
+@include desktop {
+   .grid__row {
+     @include flexbox;
+     justify-content: space-between;
+   }
+
+   .grid__col--3 {
+     flex: 1;
+   }
+
+   .grid__col--9 {
+     flex: 3;
+     @include flexbox;
+     align-self: center;
+     justify-content: space-around;
+   }
+
+   
+   .grid__col--8 {
+     flex: 2;
+     margin-right: 10%;
+   }
+
+   .grid__col--4 {
+     flex: 1;
+     padding: 0 auto;
+   }
+
+   .grid__col--6 {
+     flex: 1;
+     margin: 20px 50px;
+     align-self: center;
+   }
+
+   .grid__col--6.theme__colors,
+   .grid__col--5.theme__colors {
+     flex: 1;
+   }
+
+   .grid__col--7.theme__colors {
+     flex: 2;
+     align-self: center;
+   }
+
+   .grid__col--8.theme__colors {
+     flex: 2;
+   }
+
+   div.grid__col--7.theme__colors.centered {
+     width: 0%;
+     margin: 0 20%;
+   }
+
+ }
+
+ 

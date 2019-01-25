@@ -1,0 +1,20 @@
+.link {
+  color: $downy;
+}
+
+.headline--primary {
+  color: $downy;
+  margin-left: 20px;
+  font-size: $linksize;
+  margin: 40px 0;
+}
+
+.headline--secondary {
+  font-weight: normal;
+}
+
+@include desktop {
+  .headline--secondary {
+    margin: 50px 0;
+  }
+}
